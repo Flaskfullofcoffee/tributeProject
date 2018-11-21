@@ -1,0 +1,25 @@
+{
+  "name": "tributeproject",
+  "version": "1.0.0",
+  "description": "A tribute site to Chuck Yeager: the first man to break the sound barrier.",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.1.0",
+    "node-sass": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flaskfullofcoffee/tributeProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flaskfullofcoffee/tributeProject/issues"
+  },
+  "homepage": "https://github.com/Flaskfullofcoffee/tributeProject#readme"
+}
