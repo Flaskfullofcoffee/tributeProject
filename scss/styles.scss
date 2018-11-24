@@ -1,0 +1,67 @@
+body, * {
+  margin: 0;
+  padding: 0;
+}
+
+// Intro styles //
+.intro_wrap {
+  height: 100vh;
+}
+.intro_img {
+  height: 100%;
+  width: 100%;
+  background: url('/images/intro_img.jpg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+}
+.intro_info {
+  position: relative;
+  top: 5vh;
+  left: 60vw;
+  border-radius: 50%;
+  width: 32%;
+  height: auto;
+  padding-top: 32%;
+  background: white;
+  box-shadow: -10px 15px 45px 15px #242424;
+  background-color: #fff;
+}
+
+
+// The Man Styles //
+.theMan_wrap {
+  background-color: #000;
+  height: 100vh;
+  opacity: .90;
+  display: flex;
+  flex-direction: row;
+}
+.theMan_img {
+  height: 100%;
+  width: 45%;
+  background: url('/images/yeager.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.overlay:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-color: #000;
+  opacity: .95;
+  width: 45%;
+}
+.theMan_img h2 {
+  position: absolute;
+}
+
+// The Machine Styles //
+.theMachine {
+  height: 100vh;
+  background: url('/images/machine.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 75%;
+}
