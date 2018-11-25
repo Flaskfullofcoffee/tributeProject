@@ -6,13 +6,15 @@ body, * {
 
 // MAIN STYLES //
 #main {
-  // display: flex;
-  // flex-flow: column wrap;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 // INTRO STYLES //
 .intro {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .intro_img {
   background: url('/images/intro_img.jpg');
@@ -34,7 +36,32 @@ body, * {
 }
 
 // MAN STYLES //
-
+.man {
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+}
+.man::after {
+  content: "";
+    position: absolute;
+    height: 100%;
+    background-color: #000;
+    opacity: .9;
+    width: 100%;
+}
+.man_img {
+  flex-grow: 2;
+  height: 100%;
+  width: 40%;
+  background: url('/images/yeager.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.man_info {
+  height: 100%;
+  width: 60%;
+}
 
 
 // MACHINE STYLES //
@@ -49,7 +76,19 @@ body, * {
 
 
 
-
+// MEDIA QUERIES //
+@media screen and (max-width: 992px) {
+  // MAN STYLES //
+  .man_img, .man_info {
+    width: 100%;
+  }
+  .man_img {
+    height: 40%;
+  }
+  .man_info {
+    height: 60%;
+  }
+}
 
 
 
