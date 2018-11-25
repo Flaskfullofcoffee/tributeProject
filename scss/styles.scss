@@ -6,15 +6,32 @@ body, * {
 
 // MAIN STYLES //
 #main {
-  display: flex;
-  flex-flow: column wrap;
+  // display: flex;
+  // flex-flow: column wrap;
 }
 
 // INTRO STYLES //
 .intro {
   height: 100vh;
 }
-
+.intro_img {
+  background: url('/images/intro_img.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.intro_title {
+    position: relative;
+    top: 5vh;
+    left: 60vw;
+    border-radius: 50%;
+    width: 32%;
+    height: auto;
+    padding-top: 32%;
+    background: white;
+    box-shadow: -10px 15px 45px 15px #242424;
+    background-color: #fff;
+}
 
 // MAN STYLES //
 
