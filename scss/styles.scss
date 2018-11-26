@@ -66,12 +66,61 @@ body, * {
 
 
 // MACHINE STYLES //
+.machine {
+  height: 100vh;
+  background: url('/images/machine.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 65%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.machine_facts {
+  position: relative;
+  left: -25vw;
+  height: 100%;
+  width: 70vw;
+  transform: skewX(-15deg);
+  background-color: orange;
+  opacity: .85;
+}
 
-
-
-// LEGEND STYLES //
-
-
+// THE DEMON STYLES //
+.the_demon{
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+.demon_top {
+  height: 20%;
+  background: url('/images/demon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 55%;
+}
+.demon_top:after {
+  content: "";
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  background-color: #000;
+  opacity: .9;
+}
+.demon_bottom {
+  height: 80%;
+  background: url('/images/demon_bottom.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.demon_bottom:after {
+  content: "";
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  background-color: orange;
+  opacity: .45;
+}
 
 // LINKS STYLES //
 
