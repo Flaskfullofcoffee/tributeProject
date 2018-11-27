@@ -32,26 +32,28 @@ body, * {
     height: auto;
     padding-top: 15%;
     background: white;
-    box-shadow: -10px 15px 45px 15px #242424;
+    box-shadow: -10px 15px 45px 15px #777;
     background-color: #fff;
     display: flex;
     justify-content: center;
-    mix-blend-mode: screen;
-    background-color: white;
+    color: black;
+    mix-blend-mode: multiply;
+    background-color: black;
 }
 .title {
   position: relative;
-  top: -15vh;
-  transform: skewY(-10deg);
+  top: -15.5vh;
+  transform: skewY(-12deg);
 }
 .title h1 {
-  font-size: 7vw;
+  font-size: 7.25vw;
   font-family: 'Carter One', cursive;
   text-transform: uppercase;
   line-height: 95%;
-  color: black;
-  mix-blend-mode: multiply;
-  // background-color: white;
+  color: white;
+  mix-blend-mode: screen;
+  background-color: black;
+  border: 5px solid black;
 }
 
 // MAN STYLES //
