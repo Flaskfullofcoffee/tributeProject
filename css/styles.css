@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Carter+One");
 body, * {
   margin: 0;
   padding: 0; }
@@ -19,15 +20,32 @@ body, * {
 
 .intro_title {
   position: relative;
-  top: 5vh;
   left: 60vw;
+  top: 5vh;
   border-radius: 50%;
-  width: 32%;
+  width: 30%;
   height: auto;
-  padding-top: 32%;
+  padding-top: 15%;
   background: white;
   box-shadow: -10px 15px 45px 15px #242424;
-  background-color: #fff; }
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  mix-blend-mode: screen;
+  background-color: white; }
+
+.title {
+  position: relative;
+  top: -15vh;
+  transform: skewY(-10deg); }
+
+.title h1 {
+  font-size: 7vw;
+  font-family: 'Carter One', cursive;
+  text-transform: uppercase;
+  line-height: 95%;
+  color: black;
+  mix-blend-mode: multiply; }
 
 .man {
   height: 100vh;
@@ -110,6 +128,9 @@ body, * {
   opacity: .45; }
 
 @media screen and (max-width: 992px) {
+  .title {
+    top: -10.5vh; }
+
   .man_img, .man_info {
     width: 100%; }
 
