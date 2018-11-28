@@ -97,48 +97,6 @@ h1, h2 {
   width: 55%;
   background-color: black;
 }
-// .man_img {
-//   flex-grow: 2;
-//   display: flex;
-//   height: 100%;
-//   width: 100%;
-//   background: url('/images/theman3.jpg');
-//   background-repeat: no-repeat;
-//   background-size: auto;
-//   background-attachment: fixed;
-// }
-// .man_img:after {
-//   content: "";
-//     position: absolute;
-//     top: 100vh;
-//     height: 100%;
-//     opacity: .9;
-//     width: 50%;
-//     color: black;
-//     mix-blend-mode: screen;
-//     background-color: black;
-// }
-
-// .man_info {
-//   height: 100%;
-//   width: 60%;
-//   background-color: black;
-// }
-// .man h2 {
-//   position: relative;
-//   padding-top: 12%;
-//   padding-bottom: 15%;
-//   height: auto;
-//   width: 100%;
-//   text-align: center;
-//   font-size: 22vw;
-//   line-height: 33vh;
-//   color: white;
-//   mix-blend-mode: multiply;
-//   background-color: black;
-//   overflow: hidden;
-// }
-
 
 // MACHINE STYLES //
 .machine {
@@ -178,34 +136,56 @@ h1, h2 {
   flex-flow: column;
 }
 .demon_top {
-  height: 25%;
+  height: 20%;
   background: url('/images/demon.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 35%;
   background-attachment: fixed;
 }
-
 .demon_top h2 {
-  height: 100%;
   position: relative;
-  // top: 2.5vh;
+  // padding-top: 2.5vh;
+  height: 100%;
+  font-size: 8vw;
+  line-height: 20vh;
   text-align: center;
-  font-size: 8.75vw;
+  height: 100%;
   color: white;
   mix-blend-mode: multiply;
   background-color: black;
 }
 .demon_bottom {
-  height: 75%;
+  height: 80%;
   background: url('/images/demon_bottom.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 45%;
+  background-position: 50% 65%;
 }
 
 
 // LINKS STYLES //
+.links {
+  height: 95vh;
+  background: url('/images/links.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.links h2 {
+  position: relative;
+  top: 5vh;
+  text-align: center;
+  font-size: 4vw;
+  border: 6px solid black;
+  margin: 0vh 30vw;
+}
+
+// FOOTER STYLES //
+footer {
+  height: 5vh;
+  background-color: black;
+  margin-top: -.05vh;
+}
 
 
 
@@ -230,7 +210,6 @@ h1, h2 {
   }
   .man_info {
     height: 70%;
-    // background-color: white;
   }
   .man h2 {
     padding-top: 5vh;
@@ -238,10 +217,11 @@ h1, h2 {
     line-height: 20vh;
   }
   .man_img span::before {
-      // content: ' ';
-      // clear: right;
       display: inline-block;
   }
+
+  // DEMON STYLES //
+  
 }
 
 
