@@ -115,8 +115,9 @@ h1, h2 {
   height: 100%;
   width: 70vw;
   transform: skewX(-15deg);
-  background-color: orange;
   opacity: .85;
+  mix-blend-mode: multiply;
+  background-color: orange;
 }
 .machine_title {
   position: relative;
@@ -126,6 +127,7 @@ h1, h2 {
   line-height: 33vh;
   transform: skewX(-15deg);
   color: orange;
+  mix-blend-mode: multiply;
   opacity: .85;
 }
 
@@ -192,7 +194,7 @@ footer {
   line-height: 4.5vh;
 }
 .clover {
-  color: green;
+  color: lightgreen;
 }
 .heart {
   color: tomato;
@@ -200,11 +202,11 @@ footer {
 
 
 
-// MEDIA QUERIES //
+// TABLET MEDIA QUERIES //
 @media screen and (max-width: 992px) {
 // INTRO STLYES //
 .title {
-  top: -10.5vh;
+  top: -9.75vh;
 }
 
   // MAN STYLES //
@@ -230,5 +232,40 @@ footer {
   .man_img span::before {
       display: inline-block;
   }
+}
 
+// PHONE MEDIA QUERIES //
+@media screen and (max-width: 425px) {
+// INTRO STYLES //
+.intro_title {
+  left: 45vw;
+  width: 50%;
+  padding-top: 25%;
+}
+.title {
+  top: -8.75vh;
+
+}
+.title h1 {
+  font-size: 12vw;
+}
+
+  // MACHINE STYLES //
+  .machine_title {
+    position: relative;
+    top: -10vh;
+    left: -10vw;
+    font-size: 10.5vw;
+    color: black;
+    mix-blend-mode: multiply;
+  }
+  .machine_facts {
+    width: 90vw;
+  }
+
+  // LINKS STYLES //
+  .links h2 {
+    font-size: 8vw;
+    margin: 0vh 10vw;
+  }
 }
