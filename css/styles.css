@@ -141,7 +141,7 @@ nav a:hover:before {
   background: url("/images/machine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 35%;
+  background-position: 10% 25%;
   display: flex;
   flex-flow: row wrap;
   position: relative; }
@@ -155,37 +155,17 @@ nav a:hover:before {
   opacity: .85;
   color: black;
   mix-blend-mode: multiply;
-  background-color: #FF961F;
-  z-index: 9; }
+  background-color: #FF961F; }
 
 .machine_facts > p {
-  color: white;
-  font-size: 1.75vw;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.75vw;
   position: relative;
-  padding-top: 2.5vh;
-  padding-left: 25vw;
-  margin-left: -4vw;
-  transform: skewX(15deg); }
-
-.machine_facts > h3 {
-  position: relative;
-  top: 22vh;
-  left: 28vw;
-  font-size: 4vw;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-decoration: underline;
   transform: skewX(15deg);
-  color: white; }
-
-.machine_facts > ul {
-  position: relative;
-  top: 22vh;
-  left: 32vw;
-  font-size: 1.75vw;
-  font-family: 'Montserrat', sans-serif;
-  transform: skewX(15deg);
+  padding-top: 5vh;
+  padding-left: 6vw;
+  margin-right: 5vw;
+  margin-left: 18vw;
   color: white; }
 
 .machine_title {
@@ -293,16 +273,31 @@ footer {
 
   .man_info p {
     color: white;
-    font-size: 3.5vw;
+    font-size: 3.75vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
     padding: 8vh 6vw; }
 
+  .machine {
+    background-attachment: fixed; }
+
   .machine_title {
-    top: -5vh;
-    left: -2.5vw;
+    font-size: 6.5vw;
+    top: -8vh;
+    left: 5vw;
     color: black;
-    opacity: .85; } }
+    mix-blend-mode: multiply; }
+
+  .machine_facts {
+    width: 85vw; }
+
+  .machine_facts > p {
+    font-size: 4vw;
+    padding-top: 15vh;
+    padding-left: 12.5vw;
+    margin-right: 7vw;
+    margin-left: 13vw;
+    color: black; } }
 @media screen and (max-width: 425px) {
   .intro_title {
     left: 45vw;
@@ -315,6 +310,26 @@ footer {
   .title h1 {
     font-size: 12vw; }
 
+  .man_img {
+    height: 20%; }
+
+  .man_img h2 {
+    padding-top: 0vh;
+    font-size: 22vw; }
+
+  .man_info {
+    height: 80%; }
+
+  .man_info > p {
+    padding: 1.75vh 2vw;
+    font-size: 6.5vw; }
+
+  .opener {
+    font-size: 7.5vw; }
+
+  .machine {
+    background-position: 30% 50%; }
+
   .machine_title {
     position: relative;
     top: -10vh;
@@ -325,6 +340,12 @@ footer {
 
   .machine_facts {
     width: 90vw; }
+
+  .machine_facts > p {
+    font-size: 5.25vw;
+    padding-top: 12vh;
+    margin-right: 12vw;
+    margin-left: 8vw; }
 
   .links h2 {
     font-size: 8vw;
