@@ -107,7 +107,7 @@ nav a:hover:before {
   height: 100%;
   font-size: 20vw;
   line-height: 28vh;
-  color: darkorange;
+  color: #FF961F;
   mix-blend-mode: multiply;
   background-color: black;
   opacity: .95; }
@@ -133,7 +133,7 @@ nav a:hover:before {
 .opener {
   text-transform: uppercase;
   font-size: 3.5vw;
-  background-color: darkorange;
+  background-color: #FF961F;
   opacity: .85; }
 
 .machine {
@@ -141,7 +141,7 @@ nav a:hover:before {
   background: url("/images/machine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 65%;
+  background-position: 50% 35%;
   display: flex;
   flex-flow: row wrap;
   position: relative; }
@@ -153,8 +153,40 @@ nav a:hover:before {
   width: 70vw;
   transform: skewX(-15deg);
   opacity: .85;
+  color: black;
   mix-blend-mode: multiply;
-  background-color: orange; }
+  background-color: #FF961F;
+  z-index: 9; }
+
+.machine_facts > p {
+  color: white;
+  font-size: 1.75vw;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  padding-top: 2.5vh;
+  padding-left: 25vw;
+  margin-left: -4vw;
+  transform: skewX(15deg); }
+
+.machine_facts > h3 {
+  position: relative;
+  top: 22vh;
+  left: 28vw;
+  font-size: 4vw;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  transform: skewX(15deg);
+  color: white; }
+
+.machine_facts > ul {
+  position: relative;
+  top: 22vh;
+  left: 32vw;
+  font-size: 1.75vw;
+  font-family: 'Montserrat', sans-serif;
+  transform: skewX(15deg);
+  color: white; }
 
 .machine_title {
   position: relative;
@@ -163,7 +195,7 @@ nav a:hover:before {
   font-size: 7.5vw;
   line-height: 33vh;
   transform: skewX(-15deg);
-  color: orange;
+  color: #FF961F;
   mix-blend-mode: multiply;
   opacity: .85; }
 
@@ -188,7 +220,7 @@ nav a:hover:before {
   line-height: 20vh;
   text-align: center;
   height: 100%;
-  color: orange;
+  color: #FF961F;
   mix-blend-mode: multiply;
   background-color: black; }
 
@@ -251,7 +283,7 @@ footer {
     padding-top: 5vh;
     height: 100%;
     line-height: 20vh;
-    color: darkorange;
+    color: #FF961F;
     mix-blend-mode: multiply;
     background-color: #111;
     opacity: .95; }
