@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Carter+One");
-@import url("https://fonts.googleapis.com/css?family=Cinzel|Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400");
 body, * {
   margin: 0;
   padding: 0; }
@@ -66,13 +66,24 @@ nav a {
   margin-left: 1vw;
   color: black;
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   font-size: 2.5vw; }
+
+nav a:hover {
+  color: darkorange;
+  opacity: .85;
+  transform: scale(1.05); }
 
 nav a:nth-last-child(-n+3)::before {
   content: "| ";
   padding-right: 1vw;
   position: relative;
   top: -.25vh; }
+
+nav a:hover:before {
+  transform: none;
+  color: black;
+  opacity: 1; }
 
 .man {
   height: 100vh;
@@ -84,21 +95,22 @@ nav a:nth-last-child(-n+3)::before {
   height: 100%;
   width: 45%;
   background: url("/images/theman3.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: repeat;
-  background-position: 50%;
+  background-position: 2.5% 0%;
   background-attachment: fixed; }
 
 .man_img h2 {
   position: relative;
   text-align: center;
-  padding-top: 25vh;
+  padding-top: 30vh;
   height: 100%;
   font-size: 20vw;
   line-height: 28vh;
-  color: white;
+  color: darkorange;
   mix-blend-mode: multiply;
-  background-color: black; }
+  background-color: black;
+  opacity: .95; }
 
 .man_img span::before {
   content: ' ';
@@ -109,6 +121,20 @@ nav a:nth-last-child(-n+3)::before {
   height: 100%;
   width: 55%;
   background-color: black; }
+
+.man_info p {
+  color: white;
+  font-size: 2.75vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  padding: 6vh 4vw;
+  opacity: .9; }
+
+.opener {
+  text-transform: uppercase;
+  font-size: 3.5vw;
+  background-color: darkorange;
+  opacity: .85; }
 
 .machine {
   height: 100vh;
@@ -132,7 +158,7 @@ nav a:nth-last-child(-n+3)::before {
 
 .machine_title {
   position: relative;
-  left: 45%;
+  left: 48%;
   top: 5vh;
   font-size: 7.5vw;
   line-height: 33vh;
@@ -142,7 +168,7 @@ nav a:nth-last-child(-n+3)::before {
   opacity: .85; }
 
 .the_demon {
-  height: 100vh;
+  height: 101vh;
   display: flex;
   flex-flow: column; }
 
@@ -156,12 +182,13 @@ nav a:nth-last-child(-n+3)::before {
 
 .demon_top h2 {
   position: relative;
+  padding-top: 2.5vh;
   height: 100%;
   font-size: 8vw;
   line-height: 20vh;
   text-align: center;
   height: 100%;
-  color: white;
+  color: orange;
   mix-blend-mode: multiply;
   background-color: black; }
 
@@ -223,10 +250,27 @@ footer {
   .man h2 {
     padding-top: 5vh;
     height: 100%;
-    line-height: 20vh; }
+    line-height: 20vh;
+    color: darkorange;
+    mix-blend-mode: multiply;
+    background-color: #111;
+    opacity: .95; }
 
   .man_img span::before {
-    display: inline-block; } }
+    display: inline-block; }
+
+  .man_info p {
+    color: white;
+    font-size: 3.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding: 8vh 6vw; }
+
+  .machine_title {
+    top: -5vh;
+    left: -2.5vw;
+    color: black;
+    opacity: .85; } }
 @media screen and (max-width: 425px) {
   .intro_title {
     left: 45vw;
