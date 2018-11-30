@@ -199,7 +199,7 @@ nav a:hover:before {
   line-height: 20vh;
   text-align: center;
   height: 100%;
-  color: #FF961F;
+  color: white;
   mix-blend-mode: multiply;
   background-color: black; }
 
@@ -208,7 +208,48 @@ nav a:hover:before {
   background: url("/images/demon_bottom.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 65%; }
+  background-position: 50% 50%; }
+
+.circle1 {
+  position: relative;
+  left: 2vw;
+  top: 20vh;
+  border-radius: 50%;
+  width: 35%;
+  height: auto;
+  padding-top: 25%;
+  background: #FF961F;
+  mix-blend-mode: multiply;
+  opacity: .85; }
+
+.circle1 > blockquote {
+  position: relative;
+  top: -28vh;
+  text-align: center;
+  font-size: 4vh;
+  height: 15vh;
+  width: 32vw;
+  left: 2vw;
+  font-family: 'Montserrat', sans-serif; }
+
+.demon_info {
+  position: relative;
+  top: -35vh;
+  left: 52vw;
+  width: 42vw;
+  height: 40vh;
+  padding: 2vh 2vw;
+  background-color: white;
+  mix-blend-mode: multiply;
+  border: 2px solid black;
+  color: black; }
+
+.demon_info > h2 {
+  font-size: 2.5vw;
+  text-align: center; }
+
+.demon_info > p {
+  font-size: 2vw; }
 
 .links {
   height: 95vh;
@@ -281,22 +322,17 @@ footer {
     background-attachment: fixed; }
 
   .machine_title {
-    font-size: 6.5vw;
-    top: -8vh;
-    left: 5vw;
-    color: black;
-    mix-blend-mode: multiply; }
+    font-size: 6vw;
+    top: -5vh;
+    left: 52.5vw; }
 
   .machine_facts {
-    width: 85vw; }
+    width: 75vw; }
 
   .machine_facts > p {
-    font-size: 4vw;
-    padding-top: 15vh;
-    padding-left: 12.5vw;
-    margin-right: 7vw;
-    margin-left: 13vw;
-    color: black; } }
+    font-size: 2.5vw;
+    margin-left: 18vw;
+    color: white; } }
 @media screen and (max-width: 425px) {
   .intro_title {
     left: 45vw;
