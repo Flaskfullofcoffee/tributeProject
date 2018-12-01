@@ -386,7 +386,8 @@ footer {
     width: 75vw;
   }
   .machine_facts > p {
-    font-size: 3.75vw;
+    font-size: 3.25vw;
+    margin-top: 8vh;
     margin-right: 8vw;
     margin-left: 26vw;
     color: white;
@@ -458,10 +459,10 @@ footer {
     transform: skewX(-12deg);
   }
   .machine_facts > p {
-    font-size: 5.25vw;
+    font-size: 5vw;
     padding-top: 12vh;
     margin-right: 8vw;
-    margin-left: 24vw;
+    margin-left: 28vw;
     transform: skewX(12deg);
   }
 
@@ -498,6 +499,11 @@ footer {
   // LINKS STYLES //
   .links h2 {
     font-size: 8vw;
-    margin: 0vh 10vw;
+    margin-top: 8vh;
+  }
+  .links_list {
+    margin-bottom: 28vh;
+    margin-right: 24vw;
+    font-size: 8vw;
   }
 }
