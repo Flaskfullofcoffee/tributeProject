@@ -99,7 +99,7 @@ nav a:hover:before {
   height: 100vh;
   display: flex;
   flex-flow: row wrap;
-  margin-top: -1px;
+  background-color: black;
 }
 .man_img {
   height: 100%;
@@ -181,7 +181,7 @@ nav a:hover:before {
 }
 .machine_title {
   position: relative;
-  left: 48%;
+  left: 46%;
   top: 5vh;
   font-size: 7.5vw;
   line-height: 33vh;
@@ -230,7 +230,7 @@ nav a:hover:before {
 .circle1 {
   position: relative;
   left: 2vw;
-  top: 20vh;
+  top: 28vh;
   border-radius: 50%;
   width: 35%;
   height: auto;
@@ -241,20 +241,21 @@ nav a:hover:before {
 }
 .circle1 > blockquote {
   position: relative;
-  top: -28vh;
+  top: -24vh;
   text-align: center;
-  font-size: 4vh;
+  font-size: 3.5vh;
   height: 15vh;
   width: 32vw;
   left: 2vw;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 .demon_info {
   position: relative;
-  top: -35vh;
+  top: -15vh;
   left: 52vw;
   width: 42vw;
-  height: 40vh;
+  height: 30vh;
   padding: 2vh 2vw;
   background-color: white;
   mix-blend-mode: multiply;
@@ -266,7 +267,7 @@ nav a:hover:before {
   text-align: center;
 }
 .demon_info > p {
-  font-size: 2vw;
+  font-size: 2.05vw;
 }
 
 // LINKS STYLES //
@@ -306,7 +307,7 @@ footer {
 
 
 // TABLET MEDIA QUERIES //
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
 // INTRO STLYES //
 .title {
   top: -9.75vh;
@@ -360,9 +361,19 @@ footer {
     width: 75vw;
   }
   .machine_facts > p {
-    font-size: 2.5vw;
-    margin-left: 18vw;
+    font-size: 2.25vw;
+    margin-left: 20vw;
     color: white;
+  }
+
+  // DEMON STYLES //
+  .circle1 {
+    top: 25vh;
+    width: 40vw;
+    padding-top: 35vh;
+  }
+  .circle1 > blockquote {
+    font-size: 3vw;
   }
 }
 
@@ -392,8 +403,8 @@ footer {
     height: 80%;
   }
   .man_info > p {
-    padding: 1.75vh 2vw;
-    font-size: 6.5vw;
+    padding: 6vh 4vw;
+    font-size: 5.5vw;
   }
   .opener {
     font-size: 7.5vw;
