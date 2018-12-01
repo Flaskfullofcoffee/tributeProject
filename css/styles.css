@@ -16,6 +16,7 @@ h1, h2 {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: start;
   margin-bottom: 0; }
 
 .intro_img {
@@ -273,7 +274,7 @@ nav a:hover:before {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
-  margin-right: 20vw;
+  margin-right: 35vw;
   margin-bottom: 18vh;
   font-size: 5vw;
   font-family: 'Montserrat', sans-serif;
@@ -380,6 +381,7 @@ footer {
     height: auto; } }
 @media screen and (max-width: 425px) {
   .intro_title {
+    top: -2vh;
     left: 45vw;
     width: 50%;
     padding-top: 25%; }
@@ -389,6 +391,16 @@ footer {
 
   .title h1 {
     font-size: 12vw; }
+
+  nav {
+    flex-direction: column; }
+
+  nav > a {
+    font-size: 6vw;
+    padding: 1.5vh; }
+
+  nav > a:before {
+    display: none; }
 
   .man_img {
     height: 20%; }
@@ -459,13 +471,28 @@ footer {
     font-size: 4.5vw;
     color: black; }
 
+  .links {
+    background-position: 38%; }
+
   .links h2 {
     font-size: 8vw;
     margin-top: 8vh; }
 
   .links_list {
     margin-bottom: 28vh;
-    margin-right: 24vw;
+    margin-right: 12vw;
+    font-size: 7vw; }
+
+  .links_list > a {
+    background-color: #FF961F;
+    color: white;
+    mix-blend-mode: hard-light;
+    transform: skewX(-10deg);
+    margin-top: 2vh; }
+
+  .links_list > a:before {
+    content: "// ";
+    color: white;
     font-size: 8vw; } }
 
 /*# sourceMappingURL=styles.css.map */
