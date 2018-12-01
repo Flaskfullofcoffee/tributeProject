@@ -413,9 +413,9 @@ footer {
 // PHONE MEDIA QUERIES //
 @media screen and (max-width: 425px) {
   // INTRO STYLES //
-  // .intro {
-  //
-  // }
+  .intro {
+    background-attachment: fixed;
+  }
   .intro_title {
     top: -2vh;
     left: 45vw;
