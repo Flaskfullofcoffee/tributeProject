@@ -422,13 +422,16 @@ footer {
     mix-blend-mode: multiply;
   }
   .machine_facts {
-    width: 90vw;
+    width: 100vw;
+    opacity: .9;
+    transform: skewX(-12deg);
   }
   .machine_facts > p {
     font-size: 5.25vw;
     padding-top: 12vh;
-    margin-right: 12vw;
-    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-left: 24vw;
+    transform: skewX(12deg);
   }
   // LINKS STYLES //
   .links h2 {
