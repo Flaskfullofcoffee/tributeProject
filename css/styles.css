@@ -380,7 +380,7 @@ footer {
   .demon_info {
     height: auto; } }
 @media screen and (max-width: 425px) {
-  .intro {
+  .intro_img {
     background-attachment: fixed; }
 
   .intro_title {
