@@ -104,7 +104,7 @@ nav a:hover:before {
 .man_img {
   height: 100%;
   width: 45%;
-  background: url('images/theman3.jpg');
+  background: url('../images/theman3.jpg');
   background-size: contain;
   background-repeat: repeat;
   background-position: 2.5% 0%;
@@ -150,7 +150,7 @@ nav a:hover:before {
 // MACHINE STYLES //
 .machine {
   height: 100vh;
-  background: url('images/machine.jpg');
+  background: url('../images/machine.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40% 5%;
@@ -199,7 +199,7 @@ nav a:hover:before {
 }
 .demon_top {
   height: 20%;
-  background: url('images/demon.jpg');
+  background: url('../images/demon.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 35%;
@@ -219,7 +219,7 @@ nav a:hover:before {
 }
 .demon_bottom {
   height: 80%;
-  background: url('images/demon_bottom.jpg');
+  background: url('../images/demon_bottom.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -271,7 +271,7 @@ nav a:hover:before {
 // LINKS STYLES //
 .links {
   height: 95vh;
-  background: url('images/links.jpg');
+  background: url('../images/links.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -344,7 +344,7 @@ footer {
   }
   .man_img {
     height: 30%;
-    background: url('images/theMan.jpg');
+    background: url('../images/theMan.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 15% 15%;
