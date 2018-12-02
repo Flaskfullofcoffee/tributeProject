@@ -435,7 +435,7 @@ footer {
 
   .machine_facts {
     color: black;
-    mix-blend-mode: lighten;
+    mix-blend-mode: unset;
     background-color: darkgrey;
     width: 100vw;
     opacity: .9;
@@ -446,7 +446,8 @@ footer {
     padding-top: 12vh;
     margin-right: 8vw;
     margin-left: 28vw;
-    transform: skewX(12deg); }
+    transform: skewX(12deg);
+    color: slategrey; }
 
   .demon_top > h2 {
     padding-top: 0vh;
