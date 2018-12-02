@@ -349,7 +349,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 15% 15%;
-    background-attachment: fixed;
+    // background-attachment: fixed;
   }
   .man_info {
     height: 70%;
@@ -376,7 +376,7 @@ footer {
 
   // MACHINE STYLES //
   .machine {
-  background-attachment: fixed;
+  opacity: .95;
   }
   .machine_title {
     font-size: 6vw;
@@ -384,6 +384,10 @@ footer {
     left: 52.5vw;
   }
   .machine_facts {
+    opacity: .85;
+    color: #FF961F;
+    mix-blend-mode: luminosity;
+    background-color: black;
     width: 75vw;
   }
   .machine_facts > p {
@@ -413,9 +417,6 @@ footer {
 // PHONE MEDIA QUERIES //
 @media screen and (max-width: 425px) {
   // INTRO STYLES //
-  .intro_img {
-    background-attachment: fixed;
-  }
   .intro_title {
     top: -2vh;
     left: 45vw;
@@ -466,10 +467,13 @@ footer {
     top: -10vh;
     left: -10vw;
     font-size: 10.5vw;
-    color: black;
-    mix-blend-mode: multiply;
+    color: white;
+    mix-blend-mode: luminosity;
   }
   .machine_facts {
+    color: black;
+    mix-blend-mode: lighten;
+    background-color: darkgrey;
     width: 100vw;
     opacity: .9;
     transform: skewX(-12deg);
